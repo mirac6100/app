@@ -55,9 +55,9 @@
     "zod": "^3.24.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test"
+    "start": "python3 -m http.server 3000 --directory public",
+    "build": "echo 'No build needed for static HTML'",
+    "test": "echo 'No tests configured'"
   },
   "browserslist": {
     "production": [
